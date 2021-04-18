@@ -1,5 +1,5 @@
 ---
-title: "ilo Robot"
+title: "The Educational Robot: ilo"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -29,10 +29,10 @@ publication_types: ["0"]
 #publication: In *Wowchemy Conference*
 #publication_short: In *ICW*
 
-abstract: This platform is an open source meccanum vehicle. Meccanum wheels allow ilo to have 3 real degree of freedom on the ground. The robot is firstly build for educative purpose such as *discovery of programming* and the *notion of ten* in elementary school. As an open-source platform, it is also possible to use it for any other robotic project.
+abstract: This platform is an open source meccanum vehicle. Meccanum wheels allow ilo to have 3 real degree of freedom on the ground. The robot is firstly build for educative purpose from elementary school, with introduction to algorithms. As an open-source platform, embedding powerfull components, it is also possible to use it for any other robotic project.
 
 # Summary. An optional shortened abstract.
-summary: ilo is platform firstly developed to enable algorithmic developement at elementary school. It is programmable with the easiest way, simply taking photo of the planned path.
+summary: ilo is a platform firstly developed to enable algorithmic developement at elementary school. It is programmable with the easiest way, simply taking photo of the planned path.
 
 tags: []
 
@@ -76,7 +76,7 @@ projects:
 #slides: example
 ---
 
-![alt text](robot.jpg "ilo CAD")
+![alt text](cad-print.JPG "ilo CAD to Printed")
 
 #### System Architecture
 
@@ -84,14 +84,24 @@ The robot embeds common and open source components to be easily made.
 
 ![alt text](architecture.jpg "ilo Architecture")
 
+The arduino is simply there to control the motors via the RAMPS 1.6, which is the motor shield. As a slave, it responds to a serial command of speed intensity on both translation and rotation possible on the ground. The raspberry is the master and controls all the actuators.
+
 #### Mechanical Design
+
+The robot manufacturing tries to take advandage of 3D printing. This would allow for a greater sharing of the project.
+
+![alt text](facettes-print.JPG "ilo from every angle")
 
 As the project aims to be open source, we try to make the robot fully 3D printable. [Here]("https://github.com/jumellet/ilo-bot/tree/main/parts") can be found the differnet parts.
 
 ![alt text](wheels.jpg "ilo Meccanum Wheels")
 
+The Meccanum wheels are the key part of the robot, and enable it to have 3 degrees of liberty on the ground.
+
 #### Elementary Programming
 
-It is now our goal to propose introduction of algorithms from the youngest age. We provide an easy way to learn how to structure computer code and execute it.
+Our goal to introduce algorithm theory from the youngest age. We provide an easy way to learn how to structure computer code and execute it.
 
-![alt text](image-detection.jpg "ilo Image Detection")
+![alt text](arrows.jpg "ilo Image Detection")
+
+Our system has the particularity to allow children to code without a computer. With a pencil and a sheet of paper, you can start to code the robot's movements. The idea is to open the doors of programming as soon as possible and to as many people as possible. Verification the programming of the robot path is done with the application. It is simply a matter of taking a picture and ilo will start its journey.

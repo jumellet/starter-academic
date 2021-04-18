@@ -6,7 +6,7 @@ title: Julien Mellet
 superuser: true
 
 # Role/position/tagline
-role: Robotics and Aerospace Engineer
+role: Robotics and Aerospace Research Engineer
 
 # Organizations/Affiliations to show in About widget
 #organizations:
@@ -57,7 +57,7 @@ social:
 #  link: https://www.linkedin.com/
 - icon: youtube
   icon_pack: fab
-  #link: 
+  link: https://www.youtube.com/channel/UCwZUcUe_qjaWhh-97-XTDgA
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
@@ -73,13 +73,13 @@ email: ""
 highlight_name: false
 ---
 
-This personal portfolio presents different projects on which I worked during my Master of Science.
+This portfolio presents different projects on which I worked during my Master of Science. My various works was adviced by [Prof. Sinan Halyio]("http://www.isir.upmc.fr/index.php?op=view_profil&id=18&lang=en"), [Cédric Honnet](https://www.media.mit.edu/people/honnet/overview/), and [Prof. Wang Jingyu](https://teacher.nwpu.edu.cn/m/en/2015010016.html)
 
 #### Research Vision
 
-In my research I aim to accelerate the era of autonomy defined by highly manoeuvrable robots, extremely reliable and minimally invasive for the environment.
-  
-To achieve this, my goal is to revolutionize reliability by learning robots with increased senses for safety, performance and super-human abilities.
+In my MSc research I aimed to perform agressive drone landing using standard platforms. Quality of control depends on  the precision of the estimation of the system state, which itself depends on the precision allowed by the sensors.
+
+Now I would like to accelerate the era of autonomy defined by highly manoeuvrable robots, extremely reliable and minimally invasive for the environment. To achieve this, my goal is to make a breakthrough in reliability by teaching robots with increased senses for **safety**, ensured **performance** and **super-human** abilities.
 
 
 <!--{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.-->
